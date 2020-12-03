@@ -1,0 +1,163 @@
+$blue: #18b;
+
+.amazon-logo{
+  padding-top: 8px;
+  
+}
+
+.logo-link {
+  display: flex;
+  // align-items: center; 
+  justify-content: center;
+}
+
+.login-form {
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  background-color: #fff;
+  margin-bottom: 26px;
+  position: relative;
+  padding: 14px 18px;
+  text-align: left;
+
+  *{
+    box-sizing: border-box;
+  }
+
+  label{
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+  }
+  input{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: 0;
+  }
+}
+
+.login-box {
+  display: block;
+  max-width:400px;
+  margin: auto;
+
+  h1{
+    margin: 0 5px 0 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px; 
+  }
+}
+
+.a-link{
+  text-decoration: none;
+}
+
+.a-divider{
+  height: 44px;
+  margin-bottom: -18px;
+  background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+  background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+  z-index: 0;
+  zoom: 1;
+
+  &:after{
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+  }
+}
+
+.form-field {
+  margin-bottom: 14px;
+}
+
+.password-alert {
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 14px;
+  margin-top: 6px;
+}
+
+.legal-text-row {
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#submit{
+  background: $blue;
+  border-color: $blue;
+  color: #fff;
+}
+
+.sign-in-link{
+  font-size: 13px;
+  line-height: 19px;
+  color: #111;
+
+  a{
+    color: $blue;
+  }
+}
+
+.a-links {
+  font-size: 11px;
+  line-height: 1.465;
+  margin-bottom: 10px;
+  margin-top: 26px;
+  text-align: center;
+  
+
+  a{
+    color: $blue;
+    padding: 0 10px;
+  }
+}
+
+.company{
+  text-align: center; 
+  font-size: 11px;
+  line-height: 1.465;
+}
+
+.passwordError{
+  display: block;
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  background-color: #fff;
+  border-color: #d33;
+  max-width: 400px;
+  justify-content: center;
+  margin: auto;
+  text-align: left;
+  
+  .alert-heading{
+    color: #d33;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.255;
+    text-align: center;
+  }
+
+  .alert-content{
+    color: #111;
+    text-align: center;
+  }
+}
